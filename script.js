@@ -3,5 +3,5 @@
 let ip=document.querySelector('#fname')
 
 ip.addEventListener('blur',()=>{
-  ip.uvalue=ip.value.toUpperCase();
+  ip.value=ip.value.toUpperCase();
 })
